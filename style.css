@@ -1,0 +1,296 @@
+:root {
+    --text-color: #f0f4f5;
+    --background-color: rgb(35, 90, 145);
+    --accent-color: rgb(209, 240, 116);
+    --hover-color: rgb(151, 188, 200);
+    --green-accent-color: #00675c;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Mulish', sans-serif;
+    width: 100%;
+}
+
+.nav__bar {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    background-color: var(--background-color);
+    justify-content: space-between;
+    align-items: center;
+    color: var(--text-color);
+}
+
+li {
+    list-style: none;
+}
+
+.nav__menu {
+    display: flex;
+}
+
+.nav__menu li {
+    padding: 8px 16px;
+}
+
+i {
+    color: var(--accent-color);
+}
+
+.nav__icons {
+    display: flex;
+    padding-right: 30px;
+}
+
+.nav__icons li {
+    padding: 8px;
+}
+
+.nav__bar .bar_icon {
+    display: none;
+}
+
+.nav__logo {
+    padding-left: 30px;
+}
+
+.M_100 {
+    margin: 100;
+}
+
+@media screen and (max-width: 800px) {
+    .nav__logo {
+        padding: 10px;
+        min-height: 12px;
+    }
+
+    .nav__bar {
+        flex-direction: column;
+        padding: 0px;
+    }
+
+    .nav__menu {
+        margin: 10px 0;
+        flex-direction: column;
+        padding-left: 0;
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+
+    .nav__icons {
+        padding-left: 0;
+        display: none;
+    }
+
+    .nav__menu li:hover {
+        border-radius: 6px;
+        background-color: var(--hover-color);
+        cursor: pointer;
+    }
+
+    .nav__bar .bar_icon {
+        display: block;
+        position: fixed;
+        right: 15px;
+        top: 12px;
+    }
+
+    .active {
+        display: block;
+    }
+
+    /* 추가 */
+    .home {
+        flex-direction: column;
+    }
+
+    .left_container {
+        text-align: center;
+    }
+
+    .right_container {
+        text-align: center;
+    }
+
+    .imgLine {
+        flex-direction: column;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        
+    }
+
+    .wt500 {
+        margin-top: 10px;
+        height: auto;
+        max-width: 100%;
+    }
+
+    .git_container {
+        display: block;
+    }
+
+    .contact_container {
+        flex-direction: column;
+    }
+
+    .inline_blk {
+        display: none;
+        width: 10%;
+    }
+
+    .edu_text {
+        font-size: 18px;
+    }
+
+    .edu_line {
+        display: block;
+        margin-top: 30px;
+    }
+
+    .e_date {
+        /* font-size: 20px; */
+    }
+}
+
+/* 추가     */
+
+.home {
+    margin: 0px;
+    /* text-align: center; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.left_container {
+    text-align: center;
+    font-size: 25px;
+}
+
+.MT15 {
+    margin-top: 15px;
+}
+
+.MT20 {
+    margin-top: 20px;
+}
+
+.MT30 {
+    margin-top: 30px;
+}
+
+.MT50 {
+    margin-top: 50px;
+}
+
+.MT100 {
+    margin-top: 100px;
+}
+
+.MT120 {
+    margin-top: 120px;
+}
+
+.MT150 {
+    margin-top: 150px;
+}
+
+.contact_btn {
+    cursor: pointer;
+    margin-top: 45px;
+    border-radius: 9px;
+    border-style: none;
+    padding: 10px;
+    background-color: #102536;
+    color: white;
+    width: 300px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#first_pic {
+    max-width: 500px;
+}
+
+.menu {
+    text-align: right;
+    font-size: 25px;
+    margin-right: 100px;
+    align-items: center;
+}
+
+.wt500 {
+    text-align: center;
+    /* min-height: 300px; */
+    /* max-height: 300px; */
+    width: 500px;
+}
+
+.imgLine {
+    margin: 50px 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact_container {
+    display: flex;
+    margin: 50px 200px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.git_container {
+    margin-bottom: 80px;
+    /* font-size: 35px; */
+}
+
+.blanks {
+    width: 600px;
+    height: 30px;
+    font-size: 22px;
+
+    border-top: 0px;
+    border-right: 0;
+    border-left: 0;
+    outline-style: none;
+}
+
+.git_text {
+    font-size: 25px;
+    margin-top: 25px;
+}
+
+.edu_text {
+    /* font-size: 20px; */
+}
+
+.about_menu {
+    color: var(--green-accent-color);
+    font-size: 50px;
+}
+
+.edu_line {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.e_date {
+    font-size: 20px;
+    flex: 0.3;
+    text-align: right;
+}
+
+.about {
+    margin: 50px 100px;
+}
+
+.menu__list {
+    cursor: pointer;
+}

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nav_bar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+<script src="https://kit.fontawesome.com/ff88250509.js" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script src="main.js" defer></script>
+
+<body>
+    <nav class="nav__bar">
+        <div class="nav__logo">
+            Paulina Lipinska
+        </div>
+        <i class="fa-sharp fa-solid fa-bars bar_icon"></i>
+        <ul class="nav__menu">
+            <li class="menu__list" id="home">Home</li>
+            <li class="menu__list" id="about">About me</li>
+            <li class="menu__list" id="gallery">Gallery</li>
+            <li class="menu__list" id="contact">Contact</li>
+        </ul>
+        <ul class="nav__icons">
+            <li><i class="fa-brands fa-instagram" id="insta"></i></li>
+            <li><i class="fa-regular fa-envelope"></i></li>
+        </ul>
+    </nav>
+    <div class="home">
+        <div class="MT150 left_container" style="flex: 0.7;">
+            <div class="MT100" style="font-size: 25px; color: #00675c;">WHO AM I?</div>
+            <div class="name MT15">
+                Paulina Lipińska
+            </div>
+            <div class="intro MT15">
+                English <span style="color:red;">instructor</span> and<br>
+                Language <span style="color: rgb(96, 96, 225);">consultant</span>
+            </div>
+            <button class="contact_btn">Contact me</button>
+        </div>
+        <div class="MT150 right_container">
+            <img id="roundpic" src="round_pic.png" style="width: 500px; border-radius: 50%;">
+        </div>
+    </div>
+
+    <div class="about" >
+        <div id="about_title" style="text-align: center;">
+            <span class="menu" style="margin: 50px 0px; font-size: 50px;">
+                ABOUT ME
+            </span>
+            <hr class="MT20">
+        </div>
+
+        <div class="MT50" id="about_intro" style="flex: 0.7;">
+            <div style="color: #00675c; font-size: 50px;">
+                WHO AM I?
+            </div>
+            <div style="margin-top: 18px; font-size: 25px;">
+                I am a meticulous, organized and attentive person. <br><br>
+                I am also not afraid of working under time pressure and stress. <br>
+                Thanks to good time organization and planning skills,
+                I perform the tasks entrusted to me in a timely and conscientious manner. <br>
+                <br>
+                Moreover, I am a person who wants to learn and develop. <br>
+                I believe that my enthusiasm and total commitment to work can be fully used.
+            </div>
+        </div>
+
+        <div class="MT100 about_menu">
+            Experience & Education
+            <hr style="border-color: rgb(255, 252, 252); border-width: 1px;">
+        </div>
+        <div class="MT30 edu_text">
+            <div class="edu_line">
+                <div>
+                    MARKETER and CONSULTANT in EC2 (South Korea)
+                    <div class="description">
+                        - Research & Consulting
+                    </div>
+                </div>
+                <div class="e_date">
+                    10.2020~03.2021
+                </div>
+            </div>
+            <div>
+                <div class="edu_line">
+                    <div>
+                        INTERN in health&beauty company Meditamin global (South Korea)
+                        <div class="description">
+                            - Content marketing & Translation
+                        </div>
+                    </div>
+                    <div class="e_date">
+                        03.2021~09.2021
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="edu_line">
+                    <div>
+                        ENGLISH TEACHER (South Korea)
+                        <div class="description">
+                            – Private tutoring
+                        </div>
+                    </div>
+                    <div class="e_date">
+                        03.2021~10.2022
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="edu_line">
+                    <div>
+                        Ajou University (South Korea)
+                        <div class="description">
+                            – Master of International Business (English)
+                        </div>
+                    </div>
+                    <div class="e_date">
+                        03.2019~02.2021
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="edu_line">
+                    <div>
+                        University of Gdańsk (Poland)
+                        <div class="description">
+                            – Bachelor of International and European Business Law and EU Administration (English)
+                        </div>
+                    </div>
+                    <div class="e_date">
+                        10.2014~02.2017
+                    </div>
+                </div>
+
+                <div>
+                    <div class="edu_line">
+                        <div>
+                            GENERAL SECRETARY in real-estate agency TS Invest Tesoro Sp.zo.o. (Poland)
+                            <div class="description">
+                                – Drafted memos and reports on behalf of senior managers, creating clear and error-free
+                                written materials
+                            </div>
+                        </div>
+                        <div class="e_date">
+                            07.2017~02.2019
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        
+        <div class="gallery" style="margin-top: 150px; text-align: center;">
+            <div>
+                <span class="menu" style="margin: 50px; font-size: 50px;">
+                    GALLERY
+                </span>
+                <hr>
+            </div>
+            <div class="imgLine">
+                <img class="wt500" src="gallery05.jpg">
+                <img class="wt500" src="gallery04.jpg">
+                <img class="wt500" src="gallery03.jpg">
+            </div>
+            <div class="imgLine">
+                <img class="wt500" src="gallery02.jpg">
+                <img class="wt500" src="gallery01.jpg">
+                <img class="wt500" src="gallery06.jpg">
+            </div>
+        </div>
+
+        <div style="margin-top: 150px; text-align: center;">
+            <div>
+                <span class="menu" id="contact_menu" style="margin: 50px; font-size: 50px;">
+                    CONTACT
+                </span>
+                <hr>
+            </div>
+            <div class="contact_container">
+                <div class="git_container" style="margin-right: 30px;">
+                    <div id="git" style="font-size: 50px; color: #00675c;">
+                        Get in touch
+                    </div>
+                    <div class="git_text">
+                        Have a question about me?
+                    </div>
+                    <div class="git_text">
+                        Feel free to contact me!
+                    </div>
+                    
+                    <div class="MT30" style="font-size: 22px; display: flex; align-items: center;">
+                        <span class="material-symbols-outlined">
+                            mail
+                        </span>
+                        <span>
+                            &nbsp;paulipinska.enpl@gmail.com
+                        </span>
+                    </div>
+    
+                    <div style="font-size: 22px; margin-top: 15px; display:flex; align-items: center;">
+                        <span class="material-symbols-outlined">
+                            call
+                        </span>
+                        <span>
+                            &nbsp; +48 603-604-306
+                        </span>
+                    </div>
+                </div>
+                <div style="margin-bottom: 100px; font-size: 23px; text-align: left;">
+                    <div>
+                        <div class="MT20">
+                            Full name
+                        </div>
+                        <div class="MT15">
+                            <input type="text" class="blanks" placeholder=" Write your name" id="fullName">
+                        </div>
+                        <div class="MT20">
+                            E-mail
+                        </div>
+                        <div class="MT15">
+                            <input type="text" id="email_id" placeholder=" Write your email" class="blanks" pattern="[a-zA-Z0-9._+-]+@[a-zA-Z0-9._+-]+\.[a-zA-Z0-9.]+\.?[a-zA-Z0-9]*">
+                        </div>
+                        <div class="MT20">
+                            What can I help you with?
+                        </div>
+                        <div class="MT15">
+                            <textarea id="message" class="blanks" style=" font-family: 'Mulish', sans-serif; width: 600px; height: 100px; font-size: 20px;" placeholder=" Please write a message"></textarea>
+                        </div>
+                        <div style="text-align: right;">
+                            <button onclick="sendMail()" class="contact_btn" style="width: 100%;">submit</button>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
